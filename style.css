@@ -1,4 +1,6 @@
 /* CSS Variables */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
 :root {
     /* main UI color */
     --plyr-color-main: darkgray;
@@ -22,6 +24,11 @@ main {
 
     background: #70574ea6;
     border-radius: 10px;
+
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
 }
 
 
@@ -45,27 +52,73 @@ justify-content: center;
 align-items: center;
 text-align: center;
 color: white;
+
+font-family: "Gothic A1", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+font-size: 60px;
+
 }
 /* Primary Content */
 article {
 
     /* flow content horizontally */
-    display: flex;
+    display: block;
     gap: 1em;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 75vh;
+
+    background-color: #70574e7e;
+
+    border-radius: 10px;
+    
+
 }
 
-article section,
-article aside {
-    /* flex'd children same side  */
-    flex: 1;
+article section {
+    display: flexbox;
+    min-height: 10em;
+    margin: 0 auto;
+
+    padding: 1em;
+    font-size: 32px;
+    color: white;
 }
 
 /* Aside */
-article aside a {
+article aside  {
     display: block;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 60em;
+    text-align: center;
+    
+        font-size: 25px;
+
+    color: white;
 }
+
+
+article aside a:link {
+
+    color: #E0090F;
+}
+article aside a:link {
+
+    text-decoration: none;
+}
+
+article aside a:visited {
+
+    color: #E0090F;
+}
+
+article aside a:hover {
+
+    text-decoration: underline;
+}
+
 
 /* Footer */
 footer p {
@@ -73,6 +126,7 @@ footer p {
 
     color: white;
     padding: 1em;
+    margin: 0 auto;
 }
 
 
