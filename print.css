@@ -1,7 +1,7 @@
 @media print {
 
     /* hide */
-    audio {
+    div {
         display: none;
     }
     

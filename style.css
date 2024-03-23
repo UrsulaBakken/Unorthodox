@@ -91,6 +91,7 @@ article aside  {
     display: block;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 2em;;
     max-width: 60em;
     text-align: center;
     
@@ -131,8 +132,23 @@ footer p {
 
 
 /* Media Queries */
-@media (max-width: 40em) {
-    main article {
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+    main h1 {
+        font-weight: 700;
+        font-style: normal;
+        
+        font-size: 40px;
+        
+        }
+
+    
+article section {
+
+    font-size: 20px;  
+}
+article aside  {
+
+        font-size: 16px;
+}
+
 }
