@@ -14,3 +14,5 @@
 
 ## Citations
 * Your citations go here
+[Netlix](netflix.com)
+[Google Fonts](fonts.google.com)

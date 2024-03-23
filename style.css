@@ -9,30 +9,51 @@
 }
 
 body {
-    background: gray;
+    background: #F5C5B7;
+    background-image: url(wedding.avif);
+    background-attachment: fixed;
 }
 
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 80em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: #70574ea6;
+    border-radius: 10px;
 }
+
 
 main img {
     /* Fit image to container */
     max-width: 100%;
+    height: auto;
     display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding: 2em;
+
 }
 
+main h1 {
+display: block;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
 /* Primary Content */
 article {
+
     /* flow content horizontally */
     display: flex;
     gap: 1em;
     justify-content: center;
+    min-height: 100vh;
 }
 
 article section,
@@ -47,9 +68,13 @@ article aside a {
 }
 
 /* Footer */
-footer {
+footer p {
     text-align: center;
+
+    color: white;
+    padding: 1em;
 }
+
 
 /* Media Queries */
 @media (max-width: 40em) {
